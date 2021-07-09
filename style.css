@@ -68,6 +68,7 @@ main {
 .main-page-paragr {
   width: 40%;
 }
+
 .social-media ul {
   margin: 0;
   padding: 0;
@@ -79,7 +80,8 @@ main {
   list-style: none;
 }
 
-h1, 
+h1,
+
 h3 {
   color: #091e42;
 }
