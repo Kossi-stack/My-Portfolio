@@ -1,4 +1,4 @@
-body{
+body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -16,9 +16,9 @@ body{
   display: flex;
   justify-content: space-between;
   width: 80%;
-  background:#fff;
+  background: #fff;
   margin: 0 auto;
-  padding:30px;
+  padding: 30px;
 }
 
 #logo {
@@ -34,13 +34,13 @@ body{
 .nav-buttons a {
   text-decoration: none;
   height: 2em;
-  padding:0.5em 1em;
+  padding: 0.5em 1em;
 }
 
-.nav-buttons a:hover{
+.nav-buttons a:hover {
   text-decoration: none;
   height: 2em;
-  color:rgb(62, 151, 96);
+  color: rgb(62, 151, 96);
 }
 
 /**
@@ -54,8 +54,8 @@ body{
 main {
   background-image: url(Header_bg@2x.jpg);
   background-color: white;
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   background-size: 100%;
 }
 
@@ -66,27 +66,28 @@ main {
 }
 
 .main-page-paragr {
-width: 40%;
+  width: 40%;
 }
 .social-media ul {
-margin: 0;
-padding: 0;
-display: flex;
-gap: 15px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
 }
 
 .social-media ul li {
   list-style: none;
 }
 
-h1, h3 {
- color: #091E42;
+h1, 
+h3 {
+  color: #091e42;
 }
 
 h2 {
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
-p{
+p {
   color: #344563;
 }
