@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
   padding: 0;
   margin: 0;
@@ -146,16 +148,12 @@ img {
 }
 
 .contact {
-  color: #ebebff;
+  color: #f7f7f9;
 }
 
 #Projects {
   margin: 0 auto;
   width: 90vw;
-}
-
-.tonic {
-  height: 220px;
 }
 
 .tonic-3 {
@@ -186,9 +184,10 @@ img {
 .work {
   display: flex;
   flex-direction: column;
-  height: 552px;
+  width: 400px;
+  height: 596px;
   padding: 16px;
-  margin: 88px 0;
+  margin: 25px 24px;
   border-radius: 16px;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -213,9 +212,9 @@ img {
   display: inline-block;
   margin-right: 15px;
   list-style: none;
-  padding: 10px;
+  padding: 4px 12px;
   background-color: #ebebff;
-  border-radius: 20px;
+  border-radius: 8px;
   color: #6070ff;
 }
 
@@ -249,13 +248,7 @@ img {
   list-style: none;
   padding: 10px 10px;
   margin: 15px 0;
-  background-color: #f7f7f9;
   border-radius: 8px;
-}
-
-.lang-list .img-list {
-  width: 48px;
-  height: 48px;
 }
 
 .about-content {
@@ -268,6 +261,73 @@ img {
   border-radius: 0 35px 0 0;
   border: 2px solid #dfe1e6;
   box-sizing: border-box;
+}
+
+.about-text {
+  font-weight: bold;
+  line-height: 56px;
+  font-size: 45px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #172b4d;
+}
+
+.lang-disp-list h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000;
+}
+
+.lang-disp-list:last-child {
+  margin-bottom: 113.85px;
+}
+
+.lang-1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 21.72px;
+  column-gap: 16px;
+  margin-bottom: 36px;
+}
+
+.lang-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 36px;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.lang-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 36px;
+}
+
+.lang-1 h4 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #253858;
+}
+
+.lang-1 img {
+  width: 48px;
+  height: 48px;
+}
+
+.lang-1 > div {
+  display: flex;
+  column-gap: 16px;
+  row-gap: 21.72px;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  margin: 12px 36px;
+  height: 66.72px;
 }
 
 @media screen and (max-width: 600px) {
