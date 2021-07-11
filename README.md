@@ -1,19 +1,23 @@
 # My-Portfolio
+The purpose of this project is to Build a mobile version of my portfolio website from scratch using a design template from figma.
+
 Built With
  .  HTML 
  .  CSS
 
-    Major languages
-    Frameworks
-    Technologies used
+    Prerequisites
 
-Live Demo
+    Text editor
+    Git
+    Html
+    Css
+
 
 Getting Started
 
-👤 Author1
+👤 Kossi-Stack
 
-    GitHub: @ https://kossi-stack.github.io/kossi-tolib/
+   GitHub: @ https://kossi-stack.github.io/
     
 🤝 Contributing
 
